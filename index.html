@@ -333,7 +333,7 @@ function respond(ok, key) {
     ? `✅ Hola! ${cleaner} ha *confirmado* la limpieza de *${prop}* el ${dateFormatted}.`
     : `❌ Hola! ${cleaner} ha *rechazado* la limpieza de *${prop}* el ${dateFormatted}. Necesitas asignar otra limpiadora.`;
   // Open WhatsApp to notify back (to the office number)
-  const officePhone = '34000000000'; // placeholder — replace with real number
+  const officePhone = '34683507588'; // placeholder — replace with real number
   setTimeout(() => {
     window.open(`https://wa.me/${officePhone}?text=${encodeURIComponent(msgBack)}`, '_blank');
   }, 800);
